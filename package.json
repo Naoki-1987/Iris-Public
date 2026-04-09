@@ -1,0 +1,163 @@
+{
+    "author": "1987haaa",
+    "dependencies": {
+        "@rebble/clay": "^1.0.8",
+        "pebble-api": "^0.2.2"
+    },
+    "keywords": [
+        "pebble-app"
+    ],
+    "name": "iris",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Iris",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "Theme",
+            "AnimSpeed",
+            "AnimFreq",
+            "VibeMode",
+            "ShutterThickness",
+            "BatteryColorSync",
+            "ShutterColorMode",
+            "CustomColor",
+            "WeatherStatus",
+            "WeatherStatusTomorrow",
+            "WatchFaceMode",
+            "EnableBusiness",
+            "BizStartH",
+            "BizEndH",
+            "BizFace",
+            "BizTheme",
+            "BizShutter",
+            "ChimeInterval",
+            "BizDays",
+            "BizChimeInterval",
+            "BizVibeMode",
+            "RequestSettings"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Teko-Bold.ttf",
+                    "name": "FONT_TEKO_BOLD_70",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "emery",
+                        "flint"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Teko-Bold.ttf",
+                    "name": "FONT_TEKO_BOLD_85",
+                    "targetPlatforms": [
+                        "emery"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Teko-Bold.ttf",
+                    "name": "FONT_TEKO_BOLD_100",
+                    "targetPlatforms": [
+                        "emery",
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Teko-Bold.ttf",
+                    "name": "FONT_TEKO_BOLD_62",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Teko-Bold.ttf",
+                    "name": "FONT_TEKO_BOLD_58",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Teko-Bold.ttf",
+                    "name": "FONT_TEKO_BOLD_48",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "flint"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Teko-Bold.ttf",
+                    "name": "FONT_TEKO_BOLD_80",
+                    "targetPlatforms": [
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9]",
+                    "file": "fonts/Teko-Bold.ttf",
+                    "name": "FONT_TEKO_BOLD_64",
+                    "targetPlatforms": [
+                        "gabbro"
+                    ],
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9A-Z.%/ ]",
+                    "file": "fonts/x8y12pxDenkiChip.ttf",
+                    "name": "FONT_DENKICHIP_SUBSET_12",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/25pix.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery",
+            "gabbro",
+            "flint"
+        ],
+        "uuid": "66289022-d82b-4a70-b6c0-9f0fb82534c9",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.1.0"
+}
